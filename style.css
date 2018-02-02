@@ -22,31 +22,29 @@ nav{
     height: 100px;
     background: #fff;
 }
-.contentfix::after{
-   /* background: #fff;*/
+/*.contentfix::after{
     content: "";
     display: block;
     clear: both;
-}
+}*/
 .content{
     position: relative;
     left:25%;
     width: 100%;
     height: 100%;
-   /* background: #fff; */
+    display: flex;
 }
 section{
     float: left;
     width:495px; 
     background: #fff;
-  /*  height:100%; */
     
 }
 aside{
+    position: relative;
     float: left;
     width:455px; 
     background: #fff;
-   /* height: 100%; */
    margin-left: 10px;
 }
 .clear{
@@ -61,19 +59,16 @@ footer{
 }
 .article{
     position: relative;
-   /* width: 100%; */
     height: 100%;
     background: #777;
     margin:10px;
 }
 .hs{
     background: #fff;
-   /* height:100%; */
     margin:20px;
 }
 .p{
     background: #fff;
-   /* height:100%; */
     margin:20px;
 }
 h1,h2,h3{
